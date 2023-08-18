@@ -10,6 +10,6 @@ botao.addEventListener('click', (evento) => {
 
 function converteValor(valor) {
     let fahrenheit = valor * 1.8 + 32
-    const mudaValor = document.querySelector('.valor')
+    const mudaValor = novoValor
     mudaValor.innerHTML = fahrenheit
 }
